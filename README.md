@@ -24,11 +24,13 @@
 
 ## Java
 
-### Searching Algorithms
+### Algorithms
+
+#### Searching Algorithms
 [Binary Search](https://github.com/neeravbhaskarla/Datastructures_Java/blob/master/BinarySearch.java)
 
 ## Python
 
-### Pathfinding Algorithm using BFS and DFS
+### Algorithms
 
-[Source code](https://github.com/neeravbhaskarla/Algorithms/blob/master/pathfinder.py)
+[Finding maze route using BFS and DFS](https://github.com/neeravbhaskarla/Algorithms/blob/master/pathfinder.py)
