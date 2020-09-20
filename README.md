@@ -2,35 +2,38 @@
 
 ## C++
 
-### Linked List
+### Data Structures
 
-[Single Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/single_Linked_list.cpp)
+#### Linked List
 
-[Double Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/double_Linked_list.cpp)
+  [Single Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/single_Linked_list.cpp)
 
-### Stack
+  [Double Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/double_Linked_list.cpp)
 
-[Stack using Array](https://github.com/neeravbhaskarla/Datastructures/blob/master/array_Stack.cpp)
+#### Stack
 
-[Stack using Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/linkedlist_Stack.cpp)
+  [Stack using Array](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/array_Stack.cpp)
 
-[Reversing a Linked list](https://github.com/neeravbhaskarla/Datastructures/blob/master/Reversed_Linkedlist.cpp)
+  [Stack using Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/linkedlist_Stack.cpp)
 
-[Reverse a String using Stack and Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/revStr_linked.cpp)
+  [Reversing a Linked list](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/Reversed_Linkedlist.cpp)
 
-[Balanced Parenthesis using Stack](https://github.com/neeravbhaskarla/Datastructures/blob/master/Parenthesis.cpp)
+  [Reverse a String using Stack and Linkedlist](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/revStr_linked.cpp)
 
-[Converting Infix to Postfix using Stack](https://github.com/neeravbhaskarla/Datastructures/blob/master/InfixtoPostfix.cpp)
+  [Balanced Parenthesis using Stack](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/Parenthesis.cpp)
+
+  [Converting Infix to Postfix using Stack](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/InfixtoPostfix.cpp)
 
 ## Java
 
 ### Algorithms
 
 #### Searching Algorithms
-[Binary Search](https://github.com/neeravbhaskarla/Datastructures_Java/blob/master/BinarySearch.java)
+[Binary Search](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_Java/Algorithms/BinarySearch.java)
 
 ## Python
 
 ### Algorithms
 
-[Finding maze route using BFS and DFS](https://github.com/neeravbhaskarla/Algorithms/blob/master/pathfinder.py)
+#### Path finding Algorithms
+[Finding maze route using BFS and DFS](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_Python/pathfinder.py)
