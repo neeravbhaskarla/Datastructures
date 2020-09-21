@@ -25,7 +25,7 @@
   [Converting Infix to Postfix using Stack](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/InfixtoPostfix.cpp)
 
 #### Queue
-  [Queue] (https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/queue.cpp)
+  [Queue](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/queue.cpp)
 
 ## Java
 
