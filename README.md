@@ -27,6 +27,8 @@
 #### Queue
   [Queue](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/queue.cpp)
 
+#### BinarySearchTree
+  [Binary Search Tree](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/binary_search_tree.cpp)
 ## Java
 
 ### Algorithms
