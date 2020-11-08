@@ -65,6 +65,20 @@ int Findlength(BstNode* node,int count=0)
 //         return 0;
 //     return(Findlength(node->left)+1+Findlength(node->right));
 // }
+void Print(BstNode* root)
+{
+    BstNode* current;
+    queue<BstNode*> Q;
+    Q.push(root);
+    while(!Q.empty())
+    {
+        current = Q.front();
+        Q.pop();
+        cout<<current->data<<" ";
+        if(current->left!=NULL)Q.push(current->left);
+        if(current->right!=NULL)Q.push(current->right);
+    }
+}
 int main()
 {
     BstNode* root = NULL;
@@ -78,5 +92,6 @@ int main()
     if(Search(root,10)==true)cout<<"Item Found"<<endl;else cout<<"Item not Found"<<endl;
     cout<<"The minimum element in an BST is: "<<Findmin(root)<<endl;
     cout<<"The maximum element in an BST is: "<<Findmax(root)<<endl;
-    cout<<Findlength(root)<<endl;
+    cout<<"Length of the BST is: "<<Findlength(root)<<endl;
+    Print(root);
 }
