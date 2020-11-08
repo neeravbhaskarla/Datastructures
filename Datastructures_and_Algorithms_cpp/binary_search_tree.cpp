@@ -65,7 +65,7 @@ int Findlength(BstNode* node,int count=0)
 //         return 0;
 //     return(Findlength(node->left)+1+Findlength(node->right));
 // }
-void Print(BstNode* root)
+void LevelOrder(BstNode* root)
 {
     BstNode* current;
     queue<BstNode*> Q;
@@ -79,6 +79,27 @@ void Print(BstNode* root)
         if(current->right!=NULL)Q.push(current->right);
     }
 }
+void PreOrder(BstNode* root)
+{
+    if(root == NULL) return;
+    cout<<root->data<<" ";
+    PreOrder(root->left);
+    PreOrder(root->right);
+}
+void InOrder(BstNode* root)
+{
+    if(root == NULL) return;
+    InOrder(root->left);
+    cout<<root->data<<" ";
+    InOrder(root->right);
+}
+void PostOrder(BstNode* root)
+{
+    if(root == NULL) return;
+    PostOrder(root->left);
+    PostOrder(root->right);
+    cout<<root->data<<" ";
+}
 int main()
 {
     BstNode* root = NULL;
@@ -88,10 +109,24 @@ int main()
     root = Insert(root,20);
     root = Insert(root,30);
     root = Insert(root,40);
+    root = Insert(root,8);
+    root = Insert(root,7);
+    root = Insert(root,9);
     if(Search(root,12)==true)cout<<"Item Found"<<endl;else cout<<"Item not Found"<<endl;
     if(Search(root,10)==true)cout<<"Item Found"<<endl;else cout<<"Item not Found"<<endl;
     cout<<"The minimum element in an BST is: "<<Findmin(root)<<endl;
     cout<<"The maximum element in an BST is: "<<Findmax(root)<<endl;
     cout<<"Length of the BST is: "<<Findlength(root)<<endl;
-    Print(root);
+    cout<<"Level-Order or Breath-For-Search Algorithm: ";
+    LevelOrder(root);
+    cout<<endl;
+    cout<<"Pre-Order: ";
+    PreOrder(root);
+    cout<<endl;
+    cout<<"In-Order: ";
+    InOrder(root);
+    cout<<endl;
+    cout<<"Post-Order: ";
+    PostOrder(root);
+    cout<<endl;
 }
