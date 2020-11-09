@@ -25,7 +25,7 @@ BstNode* Insert(BstNode* root,int data)
 int Findmin(BstNode* root)
 {
     if(root == NULL)
-        throw "Error: bst is Empty";
+        throw "Error: BST is Empty";
     else
         while(root->left!=NULL)
             root = root->left;
@@ -34,7 +34,7 @@ int Findmin(BstNode* root)
 int Findmax(BstNode* root)
 {
     if(root==NULL)
-        return false;
+        throw "Error: BST is Empty";
     else
         while(root->right!=NULL)
             root=root->right;
