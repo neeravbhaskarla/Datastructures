@@ -100,6 +100,18 @@ void PostOrder(BstNode* root)
     PostOrder(root->right);
     cout<<root->data<<" ";
 }
+bool IsBstTree(BstNode* root, int min_Value=INT_MIN,int max_Value=INT_MAX)
+{
+    if(root==NULL)
+        return true;
+    
+    else if(root->data>min_Value && root->data<max_Value
+            &&IsBstTree(root->left,min_Value,root->data)
+            &&IsBstTree(root->right,root->data,max_Value))
+            return true;
+    else
+        return false;
+}
 int main()
 {
     BstNode* root = NULL;
@@ -129,4 +141,5 @@ int main()
     cout<<"Post-Order: ";
     PostOrder(root);
     cout<<endl;
+    if(IsBstTree(root))cout<<"It is a BST"; else cout<<"It is not a BST";
 }
