@@ -29,6 +29,10 @@
 
 #### BinarySearchTree
   [Binary Search Tree](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/binary_search_tree.cpp)
+
+#### Algorithms
+  [Merge Sort](https://github.com/neeravbhaskarla/Datastructures/blob/master/Datastructures_and_Algorithms_cpp/merge_Sort.cpp)
+
 ## Java
 
 ### Algorithms
